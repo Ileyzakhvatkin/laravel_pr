@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'Bookings' => 'Бронирования',
+    'Booking' => 'Бронирование',
+    'Hotels' => 'Отели',
+    'Hotel' => 'Отель',
+    'Name' => 'Имя',
+    'Description' => 'Описание',
+    'Address' => 'Адрес',
+    'Poster url' => 'URL постера',
+    'Floor area' => 'Площадь',
+    'Type' => 'Тип',
+    'Price' => 'Цена',
+    'Password' => 'Пароль',
+    'Submit' => 'Отправить',
+    'Book' => 'Бронировать',
+    'Log Out' => 'Выход',
+    'Log in' => 'Вход',
+    'Forgot your password?' => 'Забыли пароль',
+    'Remember me' => 'Запомнить меня',
+    'Register' => 'Регистрация',
+    'Confirm Password' => 'Повторите пароль',
+    'Already registered?' => 'Вы уже зарегистрированы?',
+];
