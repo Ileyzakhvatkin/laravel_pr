@@ -10,7 +10,7 @@ use Barryvdh\Debugbar\Facades\Debugbar;
 Debugbar::enable();
 
 // Route::view('/', 'index')->name('index');
-Route::get('/', [HotelsController::class, 'index'])->name('hotels.index');
+Route::get('/', [HotelsController::class, 'index'])->name('index');
 Route::get('/hotels/{hotel}', [HotelsController::class, 'show'])->name('hotels.show');
 
 Route::middleware('auth')->group(function () {

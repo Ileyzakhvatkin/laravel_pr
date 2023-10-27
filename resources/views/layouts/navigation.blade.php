@@ -12,7 +12,7 @@
                 </div>
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link href="{{ route('hotels.index') }}" active="{{ request()->routeIs('hotels.index') }}">
+                    <x-nav-link href="{{ route('index') }}" active="{{ request()->routeIs('hotels.index') }}">
                         {{ __('Hotels') }}
                     </x-nav-link>
                 </div>
