@@ -82,7 +82,7 @@
                 </div>
                 <div class="relative pr-4 pt-4">
                     <x-the-button type="submit" class="mb-2">Применить</x-the-button>
-                    <x-the-button type="reset" class="mb-2" onclick="document.location={{ route('index') }}">Сбросить</x-the-button>
+                    <x-the-button type="reset" class="mb-2" onclick="document.location='/'">Сбросить</x-the-button>
                 </div>
             </div>
 
