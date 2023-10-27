@@ -7,7 +7,7 @@ use App\Http\Controllers\ReviewController;
 use Illuminate\Support\Facades\Route;
 use Barryvdh\Debugbar\Facades\Debugbar;
 
-Debugbar::disnable();
+Debugbar::disable();
 
 // Route::view('/', 'index')->name('index');
 Route::get('/', [HotelsController::class, 'index'])->name('index');
