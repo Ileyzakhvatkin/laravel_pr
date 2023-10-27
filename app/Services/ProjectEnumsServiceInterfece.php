@@ -4,9 +4,11 @@ namespace App\Services;
 
 interface ProjectEnumsServiceInterfece
 {
-    public function facilities();
+    static public function facilities();
 
-    public function hotelType();
+    static public function hotelType();
 
-    public function roomType();
+    static public function roomType();
+
+    static public function bookingStatus();
 }

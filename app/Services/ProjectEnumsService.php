@@ -4,7 +4,7 @@ namespace App\Services;
 
 class ProjectEnumsService implements ProjectEnumsServiceInterfece
 {
-    public  function roomType():array
+    static public  function roomType():array
     {
         return [
             'room1' => 'Одноместный',
@@ -15,7 +15,7 @@ class ProjectEnumsService implements ProjectEnumsServiceInterfece
         ];
     }
 
-    public  function hotelType():array
+    static public  function hotelType():array
     {
         return [
             'hostel' => 'хостел',
@@ -28,7 +28,7 @@ class ProjectEnumsService implements ProjectEnumsServiceInterfece
         ];
     }
 
-    public function facilities():array
+    static public function facilities():array
     {
         return [
             'Ванная',
@@ -47,7 +47,7 @@ class ProjectEnumsService implements ProjectEnumsServiceInterfece
         ];
     }
 
-    public  function bookingStatus():array
+    static public  function bookingStatus():array
     {
         return [
             'created' => 'Забронирован',

@@ -6,5 +6,5 @@ use Illuminate\Http\Request;
 
 interface RoomsAvailabilityServiceInterfece
 {
-    public function check(Request $request, $rooms);
+    static public function check(Request $request, $rooms);
 }

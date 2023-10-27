@@ -7,7 +7,7 @@ use Illuminate\Support\Carbon;
 
 class RoomsAvailabilityService implements RoomsAvailabilityServiceInterfece
 {
-    public function check(Request $request, $rooms)
+    static public function check(Request $request, $rooms)
     {
         $startPlan  = Carbon::now()->addDay();
         $endPlan= Carbon::now()->addDays(2);
