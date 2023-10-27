@@ -12,7 +12,7 @@
                 </div>
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link href="{{ route('index') }}" active="{{ request()->routeIs('hotels.index') }}">
+                    <x-nav-link href="{{ route('index') }}" active="{{ request()->routeIs('index') }}">
                         {{ __('Hotels') }}
                     </x-nav-link>
                 </div>
@@ -76,7 +76,7 @@
     <!-- Responsive Navigation Menu -->
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         <div class="pt-2 space-y-1">
-            <x-responsive-nav-link href="{{ route('hotels.index') }}" active="{{ request()->routeIs('hotels.index') }}">
+            <x-responsive-nav-link href="{{ route('index') }}" active="{{ request()->routeIs('index') }}">
                 {{ __('Hotel') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link href="{{ route('bookings.index') }}" active="{{ request()->routeIs('bookings.index') }}">
